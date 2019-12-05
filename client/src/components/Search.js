@@ -9,9 +9,8 @@ export default class Search extends Component {
     constructor( props ){
         super(props);
         this.state = {
-            query:[],
-            results:{},
-            loading:true,
+            query:[], // to store search data
+            loading:true, // to display
             message:'',
             data:[],
             filterData:[],
@@ -55,7 +54,7 @@ export default class Search extends Component {
     
         const query = ({...this.state.query,[e.target.name]: e.target.value});
         this.setState({query,loading:false});
-        const getData = this.state.data
+        const getData = this.state.filterData
         if(query.provider === '')
         {
             this.storeDataIntoGetRes()
