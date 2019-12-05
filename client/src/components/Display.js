@@ -14,25 +14,26 @@ export default class Display extends Component {
                     <div className="mt-3 text-right"><b>Total: </b>{this.props.data.length}</div>
 
                     <Row>
-                {this.props.data.map((v) => {
+                {this.props.data.map((value) => {
                  return <Col lg="6" >
-                            <Card className="mt-3 shadow p-3 mb-5 bg-white rounded" key={v["Course Id"]}>
+                            <Card className="mt-3 shadow p-3 mb-5 bg-white rounded" key={value["Course Id"]}>
                                 <Card.Body>
-                                    <Card.Title>{v["Course Id"]} | {v["Course Name"]}</Card.Title>
+                                    <Card.Title>{value["Course Id"]} | {value["Course Name"]}</Card.Title>
                                         <Card.Text>
-                                            Provider: {v["Provider"]},
+                                            Provider: {value["Provider"]},
                                             <br></br>
-                                            Universities/Institutions: {v["Universities/Institutions"]}
+                                            Universities/Institutions: {value["Universities/Institutions"]}
                                         </Card.Text>
                                 </Card.Body>
                                 <ListGroup className="list-group-flush">
-                                    <ListGroupItem>Parent Subject: {v["Parent Subject"]}</ListGroupItem>
-                                    <ListGroupItem>Child Subject: {v["Child Subject"]}</ListGroupItem>
-                                    <ListGroupItem>Next Session Date: {v["Next Session Date"]}</ListGroupItem>
+                                    <ListGroupItem>Parent Subject: {value["Parent Subject"]}</ListGroupItem>
+                                    <ListGroupItem>Child Subject: {value["Child Subject"]}</ListGroupItem>
+                                    <ListGroupItem>Next Session Date: {value["Next Session Date"]}</ListGroupItem>
+                                    <ListGroupItem>Length: {value["Length"]}</ListGroupItem>
                                 </ListGroup>
                                 <Card.Body>
-                                    <Card.Link href={v["Video(Url)"]}>Video Link</Card.Link>
-                                    <Card.Link href={v["Url"]}>Apply</Card.Link>
+                                    <Card.Link href={value["Video(Url)"]}>Video Link</Card.Link>
+                                    <Card.Link href={value["Url"]}>Apply</Card.Link>
                                 </Card.Body>
                                 </Card>
                             </Col>
