@@ -1,5 +1,6 @@
 # Search Course
                                                       Shaik Mudassir
+[![Generic badge](https://img.shields.io/badge/<SUBJECT>-<STATUS>-<COLOR>.svg)](https://shields.io/)
 This application is used to search courses by following methods
 ### `Search by` 
 + course
@@ -13,4 +14,3 @@ This application is used to search courses by following methods
 + React Bootsrap
 + Html 5
 + css
- npm version jsDelivr Hits Join the chat at https://gitter.im/searchkit/searchkit Coverage Status
