@@ -1,6 +1,7 @@
 # Search Course
                                                       Shaik Mudassir
-[![Generic badge](https://img.shields.io/badge/React-npx-<COLOR>.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/React-npx Create-react-app foldername-<COLOR>.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/axios-npm install axios-<COLOR>.svg)](https://shields.io/)
 This application is used to search courses by following methods
 ### `Search by` 
 + course
