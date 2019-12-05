@@ -22,5 +22,5 @@ This application is used to search courses by following methods
 
 ## Figma design
 
-![image]()
+![image](./img/design.png)
 
