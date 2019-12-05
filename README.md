@@ -20,5 +20,7 @@ This application is used to search courses by following methods
 + Clone the repo and go into the project then open termoinal and type `npm install Or npm i` to install dependencies
 + After installing dependencies then type `npm start Or yarn run start`
 
-## Image
+## Figma design
+
+![image](./img/design.png)
 
