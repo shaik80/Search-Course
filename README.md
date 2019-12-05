@@ -24,3 +24,5 @@ This application is used to search courses by following methods
 
 ![image](./img/design.png)
 
+## ScreenShoot
+![image](./img/ScreenShoot.png)
