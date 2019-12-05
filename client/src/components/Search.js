@@ -49,8 +49,6 @@ export default class Search extends Component {
         })
         this.setState({filterData,loading:false})
         this.setState({getRes:filterData,loading:false});
-        console.log(filterData)
-        
     }
 
     handleOnInputChange = (e) =>{
