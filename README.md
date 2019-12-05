@@ -26,3 +26,6 @@ This application is used to search courses by following methods
 
 ## ScreenShoot
 ![image](./img/screenshoot.jpg)
+
+|(Demo)[https://searchcoursev1.herokuapp.com/]|
+|---------------------------------------------|
